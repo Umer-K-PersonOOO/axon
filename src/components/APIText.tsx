@@ -58,7 +58,7 @@ function APIText() {
   }, [hasAppeared]);
 
   const overlayStyle: React.CSSProperties = {
-    maskImage: `url(../axon/static/api.png)`,
+    maskImage: `url(/axon/static/api.png)`,
     maskSize: "cover",
     maskMode: "alpha",
     backgroundImage: center,
