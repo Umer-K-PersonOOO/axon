@@ -23,7 +23,7 @@ root.render(
         <Route path="/contact-us" element={<ContactPage />} />
       </Routes>
     </BrowserRouter> */}
-    <AboutPage />
+    <p> Test </p>
   </React.StrictMode>
 );
 
