@@ -9,7 +9,7 @@ import AboutPage from "./components/AboutPage";
 import App from "./components/HomePage";
 import Navbar from "./components/Navbar";
 import ContactPage from "./components/ContactPage";
-
+//
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
