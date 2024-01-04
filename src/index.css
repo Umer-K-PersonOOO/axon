@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "San Francisco", system-ui, sans-serif;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-4deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(-4deg);
+  }
+  45% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  55% {
+    transform: rotate(4deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.shaking {
+  animation: shake 0.5s ease-in-out 2;
+}
+
+.notification:hover {
+  animation: shake 0.5s ease-in-out 2;
+}
+
+.chain-bump-word {
+  margin-right: 10px; /* Adjust the margin as needed */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.chain-bump-word.bump {
+  transform: translateX(-10px); /* Adjust the translation as needed */
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
