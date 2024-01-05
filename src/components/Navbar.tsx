@@ -20,6 +20,11 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex justify-evenly">
         <span>
+          <Link className="flex-1 text-center" to={"/axon/suite/"}>
+            Meet Axon
+          </Link>
+        </span>
+        <span>
           <Link className="flex-1 text-center" to={"/"}>
             Announcements
           </Link>

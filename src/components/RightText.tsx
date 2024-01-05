@@ -29,7 +29,7 @@ function RightText(propsIn: Props) {
             <div className="flex">
               {/* overflow-x-hidden overflow-y-visible*/}
               <img
-                className="flex-1 overflow-visible object-scale-down py-2 transform transition-transform duration-300 hover:scale-125"
+                className=" flex-1 rounded-[32px] object-scale-down py-2 transform transition-transform duration-300 hover:scale-125"
                 src={window.location.href + `/static/${props.name}`}
                 alt={props.alt}
                 onClick={() => {

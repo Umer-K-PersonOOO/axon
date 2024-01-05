@@ -75,7 +75,7 @@ function HomePage() {
         <Develop />
         <APIText />
         <Connect />
-        <VoteText />
+        {/* <VoteText /> */}
       </div>
 
       <Footer />

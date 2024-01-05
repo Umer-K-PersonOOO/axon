@@ -38,7 +38,7 @@ function ImagePopup({ img, turnOff }: Props) {
           // NOT DYNAMIC
           play ? "opacity-100 translate-y-0" : "opacity-0 translate-y-[-1rem]"
         } transition-all duration-200 ease-in-out`}
-        src={window.location.href + `/static/${img}`}
+        src={`/axon/static/${img}`}
         alt=""
       />
     </div>
