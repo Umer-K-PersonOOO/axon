@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer: React.FC = () => {
   return (
-    <div className="grid xl:grid-cols-3 sm:grid-rows-3 xl:grid-rows-1 justify-items-center bg-gray-800 text-white py-4">
+    <div className="grid xl:grid-cols-3 sm:grid-rows-3 xl:grid-rows-1 justify-items-center bg-gray-700 text-white py-4">
       <div className="my-1 ">
         {" "}
         <img

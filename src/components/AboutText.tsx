@@ -78,7 +78,7 @@ function AboutText({ handleClick }: props) {
             </div>
             <ImproveText
               text="We improve computer usability with Artificial Intelligence and neural networks"
-              name="verify.png"
+              name="HelpReasearch.png"
               bgColor="bg-secondary"
               alt="Neural Computer Interfaces"
               handleClick={handleClick}

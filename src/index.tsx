@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 import Navbar from "./components/Navbar";
 import ContactPage from "./components/ContactPage";
+import AnnoucementPage from "./components/AnnoucementPage";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,6 +21,8 @@ root.render(
         <Route path="/axon" element={<AboutPage />} />
         <Route path="/axon/suite" element={<HomePage />} />
         <Route path="/axon/contact-us" element={<ContactPage />} />
+        <Route path="/axon/announcements" element={<AnnoucementPage />} />
+        {/*  AboutPage */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
